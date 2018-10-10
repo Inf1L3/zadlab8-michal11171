@@ -21,7 +21,15 @@ public abstract class Osoba {
         this.wiek = wiek;
     }
 
-    abstract public void PokazDane();
+        public void PokazDane()
+        {
+                    
+        }
+
+    @Override
+    public String toString() {
+        return "Osoba{" + "imie=" + imie + ", nazwisko=" + nazwisko + ", wiek=" + wiek + '}';
+    }
     
 
     abstract public void Mow();
